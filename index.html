@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>MTG Luck Bobblehead Helper</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Roboto&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link href="app.css" rel="stylesheet">
+    <script src="app.js" defer async type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Luck Bobblehead helper</h1>
+      <div>
+        <form id="bobblehead_solver">
+          <label>
+            Number of attempts:
+            <input class="wide" type="number" inputmode="numeric" id="attempt_count" value="1" />
+          </label>
+          <label>
+            Number of Bobbleheads:
+            <input class="wide" type="number" inputmode="numeric" id="bobble_count" value="1" />
+          </label>
+      
+          <label>Verbose mode: <input type="checkbox" id="verbose" /></label>
+          <input type="reset" /> <button>Go!</button>
+          <label>
+            Won the game?:
+            <span id="bobble_win"></span>
+          </label>
+          <label class="result">
+            Number of treasures:
+            <span id="bobble_treasures"></span>
+          </label>
+        </form>
+      </div>
+
+      <hr/>
+
+      <p>
+        Check out the <a href="https://github.com/fbatista/mtg-luck-bobblehead">github repository</a> for this tool and feel free to reach out to <a href="https://github.com/fbatista">me</a>.
+      </p>
+      <p>
+        I'm a Level 2 MTG Judge and i've built this to make it possible to resolve millions of Luck Bobblehead attempts with ease &#x1F605;
+      </p>
+      <p>
+        Make sure that all players (and Head Judge!) agree to this method before using it!
+      </p>
+      <p>
+        <strong>Have fun and best of luck!</strong>
+      </p>
+    </div>
+  </body>
+</html>
